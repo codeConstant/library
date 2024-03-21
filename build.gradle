@@ -45,9 +45,9 @@ publishing {
 			name = "GitHubPackages"
 			url = uri("https://maven.pkg.github.com/codeConstant/library")
 			credentials {
-				println "PUBLISH_USER: ${System.getenv("LIBRARY_TOKEN")}"
+				println "PUBLISH_USER: ${System.getenv("GITHUB_TOKEN")}"
 		    	username = project.findProperty("USER")
-				password = System.getenv("LIBRARY_TOKEN")
+				password = System.getenv("GITHUB_TOKEN")
 			}
 		}
 	}
