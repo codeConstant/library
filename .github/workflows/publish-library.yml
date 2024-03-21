@@ -28,4 +28,3 @@ jobs:
         run: ./gradlew publish
         env:
           GITHUB_TOKEN: ${{ secrets.LIBRARY_TOKEN }}
-

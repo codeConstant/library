@@ -13,6 +13,6 @@ public class FootballCompany {
 
     public FootballCompany(){
         topCompanyList = new ArrayList<>();
-        topCompanyList.addAll(List.of("Adidas AG", "Nike Inc", "Puma SE", "Decathlon Sports Pvt Ltd"));
+        topCompanyList.addAll(List.of("Adidas AG", "Nike Inc", "Puma SE", "Decathlon Sports Pvt Ltd","FagTTl"));
     }
 }
