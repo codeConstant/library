@@ -47,7 +47,7 @@ publishing {
 			credentials {
 				//println "PUBLISH_USER: ${System.getenv("TOKEN")}"
 		    	username = project.findProperty("USER")
-				password = project.findProperty("TOKEN")
+				password = System.getenv("TOKEN")
 			}
 		}
 	}
